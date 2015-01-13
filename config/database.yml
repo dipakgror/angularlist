@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: todo_dev
+  port: 5433
+  host: localhost
+  username: postgres
+  password: postgres
+  
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: todo_test
+  port: 5433
+  host: localhost
+  username: postgres
+  password: postgres
